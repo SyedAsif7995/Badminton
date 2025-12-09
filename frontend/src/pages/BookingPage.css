@@ -1,0 +1,42 @@
+
+body {
+  background: #f5eaff;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.booking-container {
+  max-width: 500px;             
+  margin: 40px auto;            
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #6c00ff;
+}
+
+button {
+  background: #6c00ff;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #5200c7;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
